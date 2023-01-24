@@ -7,6 +7,7 @@ for(let element of faqs){
     arrow.setAttribute('class', 'fa-solid fa-arrow-down')
     arrow.style.float='right'
     arrow.style.color='orangered'
+    arrow.style.transition='.7s'
     li.textContent=element.heading
     li.appendChild(arrow)
     const p = document.createElement('p')
