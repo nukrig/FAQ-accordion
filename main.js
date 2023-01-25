@@ -1,3 +1,4 @@
+"use strict";
 import {faqs} from "./data.js"
 const faqsElement = document.getElementById('faqs')
 
